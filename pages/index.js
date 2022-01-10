@@ -1,10 +1,10 @@
-import NavBar from "../components/NavBar";
+import Seo from "../components/Seo";
 
 export default function Home() {
   return (
     <div>
-      <NavBar />
-      <h1>hello</h1>
+      <Seo title="home" />
+      <h1 className="active">hello</h1>
     </div>
   );
 }
